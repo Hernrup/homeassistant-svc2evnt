@@ -16,17 +16,22 @@ DOMAIN = "svc2evnt"
 
 
 def setup(hass, config):
-    hass.states.set('svc2evnt.initialized', True)
 
     def handle_hello(call):
         """Handle the service call."""
         data = call.data
-        event_id = data['event_id']
-        payload = data['data']
-        print(data)
-        hass.bus.fire(event_id, payload)
-        print('sent')
 
+        try:
+            event_id = data['event_type']
+        except KeyError:
+            raise ValueError('`event_type` argument was not supplied')
+
+        try:
+            payload = data['data']
+        except KeyError:
+            raise ValueError('`data` argument was not supplied')
+        
+        hass.bus.fire(event_id, payload)
 
     hass.services.register(DOMAIN, "fire_event", handle_hello)
 
