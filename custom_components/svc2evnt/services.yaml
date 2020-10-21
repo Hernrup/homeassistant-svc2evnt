@@ -1,0 +1,9 @@
+fire_event:
+  description: fires a event
+  fields:
+    event_id:
+      description: Name(s) of the event
+      example: "state_changed"
+    data:
+      description: data to send as event payload
+      example: {"var": 'val'}

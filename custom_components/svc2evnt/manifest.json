@@ -1,0 +1,8 @@
+{
+    "domain": "svc2evnt",
+    "name": "svc2evnt",
+    "documentation": "https://github.com/hernrup/homeassistant-svc2evnt",
+    "dependencies": [],
+    "codeowners": [],
+    "requirements": []
+}

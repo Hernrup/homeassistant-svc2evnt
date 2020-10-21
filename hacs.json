@@ -1,0 +1,14 @@
+{
+    "codeowners": [
+        "@hernrup"
+    ],
+    "config_flow": false,
+    "documentation": "https://github.com/hernrup/homeassistant-svc2evnt",
+    "domains": [
+        "svc2evnt"
+    ],
+    "homeassistant": "0.106.0",
+    "name": "svc2evnt",
+    "render_readme": true,
+    "iot_class": "Local Push"
+}
