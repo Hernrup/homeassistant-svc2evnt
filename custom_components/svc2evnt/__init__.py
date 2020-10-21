@@ -9,7 +9,7 @@ configuration.yaml file.
 svc2evnt:
 """
 
-__version__ = "0.1.1"
+__version__ = "0.1.2"
 
 # The domain of your component. Should be equal to the name of your component.
 DOMAIN = "svc2evnt"
