@@ -1,6 +1,10 @@
 svc2evnt
 ==========
-[![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg?style=for-the-badge)](https://github.com/custom-components/hacs)
+[![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/custom-components/hacs)
+[![action 1 badge](https://github.com/Hernrup/homeassistant-svc2evnt/workflows/Semantic%20Release/badge.svg)
+[![action 2 badge](https://github.com/Hernrup/homeassistant-svc2evnt/workflows/Validate%20with%20hassfest/badge.svg)
+[![badge](https://img.shields.io/github/issues/Hernrup/homeassistant-svc2evnt)
+[![badge](https://img.shields.io/github/license/Hernrup/homeassistant-svc2evnt)
 
 A Home Assistant integration that implements a simple way of triggering a generic event through a service call.
 
