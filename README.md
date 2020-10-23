@@ -2,6 +2,7 @@ svc2evnt
 ==========
 
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/custom-components/hacs)
+[![Gitter](https://badges.gitter.im/homeassistant-svc2evnt/community.svg)](https://gitter.im/homeassistant-svc2evnt/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 ![badge](https://img.shields.io/github/issues/Hernrup/homeassistant-svc2evnt)
 ![badge](https://img.shields.io/github/license/Hernrup/homeassistant-svc2evnt)
@@ -17,7 +18,7 @@ The integration can be installed from `HACS` or by copying the files under `cust
 ### Configuration
 
 To use the component you will need to add the following to your
-`configuration.yaml` file.
+`configuration.yaml` file in order to load the integration.
 
 The component has no configuration options.
 
@@ -26,11 +27,10 @@ svc2evnt:
 ```
 ### Usage
 
-| Name | Type | Requried | Supported options | Description |
-| ----------------- | ------ | -------- | ---------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
-| `action` | string | yes | call-service | Action to perform |
-| `service` | string | yes | svc2evnt.fire_event | Service to call |
-| `service_data` | string | yes | Se below |  |
+The integration registeres a service called `svc2evnt.fire_event`. This can be executed using the
+standard call_service functionality in Home Assistant.
+
+The arguments accepted as service data to this service is descibed bellow.
 
 #### Service data
 
