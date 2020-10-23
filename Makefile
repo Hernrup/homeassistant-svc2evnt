@@ -2,11 +2,14 @@
 .PHONY: format
 
 test:
-	black --check custom_components
-	flake8 custom_components
+	poetry run black --check custom_components
+	poetry run flake8 custom_components
 
 format:
-	black custom_components
+	poetry run black custom_components
+
+install:
+	poetry install
 
 
 
