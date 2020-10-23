@@ -2,6 +2,13 @@
 
 <!--next-version-placeholder-->
 
+## v1.0.0 (2020-10-23)
+### Breaking
+* stabalize interfaces and apis ([`913a9e1`](https://github.com/Hernrup/homeassistant-svc2evnt/commit/913a9e176bd1f74e96bf3e90288f2e3211a9b8b6))
+
+### Performance
+* Stabalize interfaces and apis ([`913a9e1`](https://github.com/Hernrup/homeassistant-svc2evnt/commit/913a9e176bd1f74e96bf3e90288f2e3211a9b8b6))
+
 ## v0.2.0 (2020-10-23)
 ### Feature
 * Allow empty payload ([`536c946`](https://github.com/Hernrup/homeassistant-svc2evnt/commit/536c946c54bec4ef0c640b2734ab404129a0f2b9))
