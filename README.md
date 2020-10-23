@@ -2,11 +2,12 @@ svc2evnt
 ==========
 
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/custom-components/hacs)
-![action 1 badge](https://github.com/Hernrup/homeassistant-svc2evnt/workflows/Semantic%20Release/badge.svg)
-![action 2 badge](https://github.com/Hernrup/homeassistant-svc2evnt/workflows/Validate%20with%20hassfest/badge.svg)
+[![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 ![badge](https://img.shields.io/github/issues/Hernrup/homeassistant-svc2evnt)
 ![badge](https://img.shields.io/github/license/Hernrup/homeassistant-svc2evnt)
 ![badge](https://img.shields.io/github/v/release/Hernrup/homeassistant-svc2evnt)
+![action 1 badge](https://github.com/Hernrup/homeassistant-svc2evnt/workflows/Semantic%20Release/badge.svg)
+![action 2 badge](https://github.com/Hernrup/homeassistant-svc2evnt/workflows/Validate%20with%20hassfest/badge.svg)
 
 A Home Assistant integration that implements a simple way of triggering a generic event through a service call.
 
@@ -57,3 +58,25 @@ Send a custom event with event type `custom_event` and with data `domain: media`
   show_icon: true
   icon: 'mdi:play-pause'
 ```
+
+### Contributions
+
+This project gladly accepts contributions.
+
+### Style guide
+
+#### Commit messages
+This project uses [semantic release](https://github.com/semantic-release/semantic-release) which forces all commit messages to follow the [conventional commits format](https://www.conventionalcommits.org/). 
+
+The content of the commit message is used in the release process and is added to the changelog. Please take creat care to write desciptive commit messages.
+
+#### Python code style
+This project uses [Black](https://black.readthedocs.io/en/stable/) to enforce consistant formatting.
+
+### Quality controls
+On top of [Black](https://black.readthedocs.io/en/stable/) we also expect [flake8](https://flake8.pycqa.org/en/latest/) to pass before a PR will be approved.
+
+You can run the control test suite yourself by running `make test`
+
+### Dev environment
+This project uses poetry for package management. To install dev-dependencies run `poetry install`.
