@@ -37,7 +37,7 @@ The arguments accepted as service data to this service is descibed bellow.
 | Name | Type | Requried | Supported options | Description |
 | ----------------- | ------ | -------- | ---------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
 | `event_type` | string | yes | Any event type, ex `custom_event`| Event type |
-| `data` | string | yes |  | Any data to send with event |
+| `data` | string | no |  | Any data to send with event |
 
 #### Example
 This example uses the custom component ["button-card"](https://github.com/custom-cards/button-card/blob/master/README.md) 
