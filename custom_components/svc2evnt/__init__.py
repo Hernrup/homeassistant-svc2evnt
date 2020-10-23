@@ -26,10 +26,7 @@ def setup(hass, config):
         except KeyError:
             raise ValueError("`event_type` argument was not supplied")
 
-        try:
-            payload = data["data"]
-        except KeyError:
-            raise ValueError("`data` argument was not supplied")
+        payload = data.get("data", {})
 
         hass.bus.fire(event_id, payload)
 
