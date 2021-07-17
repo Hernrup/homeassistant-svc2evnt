@@ -2,6 +2,13 @@
 
 <!--next-version-placeholder-->
 
+## v1.1.0 (2021-07-17)
+### Feature
+* Add version to manifest ([`7335747`](https://github.com/Hernrup/homeassistant-svc2evnt/commit/7335747fa3b7207d042f221035ebae8cc735bc79))
+
+### Fix
+* Update build number in manifest file on semantic release ([`e881158`](https://github.com/Hernrup/homeassistant-svc2evnt/commit/e8811587e41633e0822fc8275affbb78f49923ee))
+
 ## v1.0.0 (2020-10-23)
 ### Breaking
 * stabalize interfaces and apis ([`913a9e1`](https://github.com/Hernrup/homeassistant-svc2evnt/commit/913a9e176bd1f74e96bf3e90288f2e3211a9b8b6))
